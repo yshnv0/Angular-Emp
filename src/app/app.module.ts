@@ -7,6 +7,8 @@ import { DepartmentComponent } from './department/department.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
+import { ErrorComponent } from './error/error.component';
+import { DeptdetailsComponent } from './deptdetails/deptdetails.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MenuComponent } from './menu/menu.component';
     DepartmentComponent,
     EmployeeComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    ErrorComponent,
+    DeptdetailsComponent
   ],
   imports: [
     BrowserModule,
